@@ -5,6 +5,7 @@ void setup(){
   float posx = width/2;
   float ballRadius = 20;
   float numFloors = 4;
+
   //dynamically create balls
   //loop trough number of "floors"
   for(int floor = 1; floor <= numFloors; floor++){
@@ -17,5 +18,4 @@ void setup(){
   for(Ball ball:balls){
     ball.display();
   }
-  print(balls.size());
 }
