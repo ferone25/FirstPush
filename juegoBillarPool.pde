@@ -4,7 +4,7 @@ void setup(){
   size(500,500);
   float posx = width/2;
   float ballRadius = 20;
-  float numFloors = 4;
+  float numFloors = 5;
   //dynamically create balls
   //loop trough number of "floors"
   for(int floor = 1; floor <= numFloors; floor++){
