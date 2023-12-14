@@ -4,6 +4,7 @@ class Ball{
   PVector acceleration;
   PVector velocity;
   float radius;
+  color colour;
   
   Ball(PVector position,float radius){
     this.position = position;
